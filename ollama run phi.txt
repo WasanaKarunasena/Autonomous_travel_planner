@@ -1,0 +1,9 @@
+ollama run phi
+uvicorn backend.flights_service:app --reload --port 8001
+uvicorn backend.hotels_service:app --reload --port 8002
+uvicorn backend.transport_service:app --reload --port 8003
+uvicorn backend.weather_service:app --reload --port 8004
+uvicorn backend.itinerary_service:app --reload --port 8005
+uvicorn backend.payment_service:app --reload --port 8006
+
+uvicorn backend.coordinator_api:app --reload --port 8010
