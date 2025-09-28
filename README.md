@@ -18,7 +18,7 @@ An AI-driven web app that generates personalized travel plans using multiple aut
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/autonomous-travel-planner.git
+   git clone https://github.com/WasanaKarunasena/Autonomous_travel_planner.git
 
 
    Install backend dependencies:
