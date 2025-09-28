@@ -1,0 +1,50 @@
+/* TripForm.css */
+.trip-form {
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.trip-form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.trip-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s;
+  font-size: 14px;
+}
+
+.trip-form input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.trip-form button {
+  margin-top: 16px;
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+.trip-form button:hover {
+  background: #1e40af;
+}
